@@ -54,7 +54,7 @@ namespace iMask
             using (var httpClient = new HttpClient())
             {
                 var json = await httpClient.GetStringAsync(
-                    "https://raw.githubusercontent.com/kiang/pharmacies/master/json/points.json");
+                    "https://raw.githubusercontent.com/z20254869/pharmacy/main/pharmacy.json");
 
                 return JsonConvert.DeserializeObject<FeatureCollection>(json);
             }

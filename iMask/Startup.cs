@@ -28,8 +28,8 @@ namespace iMask
 
             services.AddSingleton<LineBotConfig, LineBotConfig>((s) => new LineBotConfig
             {
-                channelSecret = Configuration["LineBot:channelSecret"],
-                accessToken = Configuration["LineBot:accessToken"]
+                channelSecret = Configuration["00993f5bfd2a792015b00ac06ebba568"],
+                accessToken = Configuration["ocm6ZJTBy/RPknWUE60fkv55Qov9RNSY8EuBXei5rjuV3ts9TkfEUA2I/5wGGMUrjbaeAWMedrnatD3WE1z9oy4ZzMU/z2mbYUasaQMtUD1bPjc2G0E7kkHCEO9+RbHbdkWNMxsbYDPxpBcvnhQoWgdB04t89/1O/w1cDnyilFU="]
             });
 
             services.AddScoped<CacheService, CacheService>();
